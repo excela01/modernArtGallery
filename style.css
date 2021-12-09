@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif, serif;
+  background: #c0c6c9;
+  position: relative;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mini-wrapper {
+  /* float: left; */
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.black-bg {
+  background: black;
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.hero-bg {
+  background: url(./imgs/1639007622710.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+.white-bg {
+  background: white;
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+
+.texts {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: white;
+  border: 5px solid gold;
+}
+
+.col-1 {
+  width: 100%;
+  height: 40%;
+  border: 5px solid yellowgreen;
+}
+
+.col-1 div {
+  width: 65%;
+  height: 100%;
+  float: left;
+  text-transform: uppercase;
+  position: relative;
+  border: 5px solid rgb(174, 50, 205);
+}
+.col-1 div h1 {
+  position: absolute;
+  border: 1px solid sandybrown;
+  width: 40%;
+  font-weight: 600;
+  bottom: 0;
+  margin-left: 24%;
+  font-size: 300%;
+}
+.col-1 .para {
+  width: 35%;
+  height: 100%;
+  float: right;
+  line-height: 25px;
+  color: #555;
+  border: 5px solid rgb(205, 50, 50);
+}
+
+.col-1 .para p {
+  width: 73.1%;
+  height: auto;
+  border: 1px solid;
+  margin-top: 110px;
+  text-transform: none;
+  font-size: 140%;
+}
+.col-2 {
+  width: 100%;
+  height: auto;
+  border: 1px solid;
+}
+
+.col-2 .anchor {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  float: right;
+  margin-right: 14%;
+}
+
+.col-2 .anchor h3 {
+  float: left;
+  height: 100%;
+  border: 1px solid gainsboro;
+  width: 80%;
+}
+.col-2 .anchor a {
+  height: 100%;
+  border: 1px solid white;
+  width: 20%;
+  padding: 0 4%;
+  float: right;
+  background: burlywood;
+}
