@@ -68,7 +68,7 @@ body {
   float: left;
   text-transform: uppercase;
   position: relative;
-  margin-left: -10%;
+  margin-left: -8.5%;
 }
 .n-word {
   background-image: linear-gradient(to left, black, black, white, white, white);
@@ -89,6 +89,7 @@ body {
   font-size: 500%;
   background-image: linear-gradient(
     to left,
+    black,
     black,
     black,
     white,
@@ -134,7 +135,7 @@ body {
   float: left;
   height: 100%;
   width: 80%;
-  padding: 7% 5% 0 5%;
+  padding: 4.5% 5% 0 5%;
 }
 .col-2 .anchor a {
   height: 100%;
@@ -142,25 +143,42 @@ body {
   padding: 4%;
   float: right;
   background: burlywood;
-  padding-top: 7%;
+  color: white;
+  margin-top: auto;
+}
+.col-2 .anchor a i {
+  font-size: 200%;
+  margin-bottom: 10px;
 }
 section {
-  width: 100vw;
-  height: auto;
+  width: 100%;
+  height: 100vh;
+  margin-left: 7%;
 }
 .section-02a {
   width: 100%;
   height: 90%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .text-2 {
-  width: 30%;
+  width: 40%;
   height: 450px;
   float: left;
 }
+.section-02a .text-2 h2 {
+  width: 90%;
+  font-size: 400%;
+  /* line-height: 30px; */
+  word-spacing: 5px;
+}
+.section-02a .text-2 p {
+  width: 85%;
+  font-size: 180%;
+  padding-top: 5%;
+}
 
 .musuem-img {
-  width: 70%;
+  width: 60%;
   height: 450px;
   float: right;
 }
@@ -177,8 +195,8 @@ section {
 }
 
 .div-img {
-  width: 750px;
-  height: 750px;
+  /* width: 660px; */
+  height: 800px;
   /* background-image: url(./imgs/heropexels-robin-schreiner-2261165.jpg);
   background-position: cover; */
   /* background-repeat: no-repeat; */
@@ -189,16 +207,80 @@ section {
   float: left;
 }
 .div-img img {
-  margin-bottom: 500px;
-
   width: 100%;
   height: auto;
 }
 
 .section-02c {
   width: 40%;
-  height: auto;
-  border: 3px solid firebrick;
+  height: 800px;
   float: right;
   margin-top: 5%;
+  margin-bottom: 20%;
+  overflow: hidden;
+}
+
+.mini img {
+  width: 100%;
+  height: 400px;
+  padding-bottom: 8%;
+}
+.section-texts {
+  background-color: black;
+  color: white;
+  width: 90%;
+  height: 100%;
+  padding: 7%;
+}
+.section-texts h2 {
+  text-transform: uppercase;
+  font-size: 340%;
+  padding-bottom: 5%;
+}
+
+.section-texts p {
+  font-size: 150%;
+  width: 90%;
+}
+
+footer {
+  width: 100%;
+  height: 155px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer h3 {
+  width: 25%;
+  height: 100%;
+  float: left;
+  font-size: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2% 0 5% 10%;
+}
+footer span {
+  display: block;
+}
+footer p {
+  width: 40%;
+  float: left;
+  height: 100%;
+  font-size: 110%;
+  margin: 2% 5% 0 0;
+}
+
+footer .anchor {
+  width: 200px;
+  margin-right: 50px;
+  height: 100%;
+  float: left;
+  margin: 25px;
+}
+footer .anchor a {
+  color: white;
+  font-size: 150%;
+  padding-left: 5px;
 }
