@@ -259,7 +259,7 @@ footer h3 {
   float: left;
   font-size: 200%;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 2% 0 5% 10%;
+  margin: 3% 0 5% 10%;
 }
 footer span {
   display: block;
@@ -269,7 +269,7 @@ footer p {
   float: left;
   height: 100%;
   font-size: 110%;
-  margin: 2% 5% 0 0;
+  margin: 3% 5% 0 0;
 }
 
 footer .anchor {
@@ -278,9 +278,13 @@ footer .anchor {
   height: 100%;
   float: left;
   margin: 25px;
+  margin-top: 50px;
 }
 footer .anchor a {
   color: white;
   font-size: 150%;
   padding-left: 5px;
+}
+
+@media screen only and(max-width: 769px) {
 }
