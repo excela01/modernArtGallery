@@ -285,9 +285,11 @@ footer h3 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 3% 0 5% 10%;
 }
+
 span:not(.exclude) {
   display: block;
 }
+
 footer p {
   width: 40%;
   float: left;
@@ -304,16 +306,16 @@ footer .anchor {
   margin: 25px;
   margin-top: 50px;
 }
+
 footer .anchor a {
   color: white;
   font-size: 150%;
   padding-left: 5px;
 }
+
 .no-span {
   display: none;
 }
-/* @media screen and(min-width: 590px) {
-} */
 
 @media screen and (max-width: 800px) {
   .black-bg {
@@ -523,17 +525,33 @@ footer .anchor a {
     font-size: 90%;
   }
 }
-/* footer .anchor {
-  width: 200px;
-  margin-right: 50px;
-  height: 100%;
-  float: left;
-  margin: 25px;
-  margin-top: 50px;
+@media screen and (max-width: 700px) {
+  .col-1 div {
+    font-size: 90%;
+    margin-left: -55px;
+    margin-top: -30px;
+  }
+  .para-for-tab {
+    border: 1px solid salmon;
+    width: 120%;
+    margin-top: 30px;
+    font-size: 105%;
+  }
+  .div-img {
+    width: 55%;
+  }
+  .section-texts {
+    font-size: 90%;
+  }
+  .section-texts p {
+    font-size: 100%;
+  }
+
+  footer p {
+    font-size: 90%;
+    width: 50%;
+  }
 }
-footer .anchor a {
-  color: white;
-  font-size: 150%;
-  background-color: olive;
-  padding-left: 5px;
-} */
+
+@media screen and (max-width: 500px) {
+}
