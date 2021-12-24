@@ -455,21 +455,25 @@ footer .anchor a {
   .section-texts {
     padding: 2% 0 4% 2%;
   }
+
   .section-texts h2 {
     margin-top: 40px;
     width: 80%;
     margin-left: 10%;
     font-size: 200%;
   }
+
   .section-texts p {
     font-size: 110%;
     width: 90%;
     margin-left: 5%;
     margin-top: 25px;
   }
+
   .para-main {
     display: none;
   }
+
   .parafor-sect2-Tab {
     display: block;
   }
@@ -510,4 +514,26 @@ footer .anchor a {
   .span {
     display: none;
   }
+  footer .anchor {
+    /* margin-left: -60px; */
+    display: block;
+    position: absolute;
+    top: -25px;
+    right: -95px;
+    font-size: 90%;
+  }
 }
+/* footer .anchor {
+  width: 200px;
+  margin-right: 50px;
+  height: 100%;
+  float: left;
+  margin: 25px;
+  margin-top: 50px;
+}
+footer .anchor a {
+  color: white;
+  font-size: 150%;
+  background-color: olive;
+  padding-left: 5px;
+} */
