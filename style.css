@@ -141,6 +141,7 @@ main {
   width: 230px;
   height: 50px;
   background-color: black;
+  margin-top: 50px;
   float: right;
   margin-right: 17%;
 }
@@ -550,7 +551,93 @@ footer .anchor a {
     font-size: 90%;
     width: 50%;
   }
+  footer h3 {
+    font-size: 120%;
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .hero-bg {
+    width: 100%;
+    height: 45%;
+  }
+  .white-bg {
+    float: left;
+    width: 100%;
+    height: 75%;
+  }
+  .texts {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 50vh;
+    left: 7.5%;
+    font-size: 120%;
+  }
+  .new-art {
+    font-size: 320%;
+    margin-top: 10%;
+  }
+  .para-for-tab {
+    font-size: 135%;
+    width: 450px;
+    margin-top: 50px;
+  }
+  .anchor-tab {
+    padding: 150px 0 0 43px;
+  }
 }
+/* 
+
+  .para-for-tab {
+    display: block;
+    margin-left: 42px;
+    width: 400px;
+    text-transform: none;
+    margin-top: 70px;
+    color: rgb(54, 54, 54);
+    line-height: 130%;
+    font-size: 130%;
+  }
+
+.hero-bg {
+  background: url(./imgs/1639007622710.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+.white-bg {
+  background: white;
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+
+.texts {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: white;
+}
+
+.col-1 {
+  width: 100%;
+  height: 40%;
+}
+
+.col-1 div {
+  width: 65%;
+  height: 100%;
+  float: left;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: -8.5%;
+}
+.new-art {
+  display: none;
+} */
