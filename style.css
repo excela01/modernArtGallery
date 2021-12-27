@@ -301,7 +301,9 @@ footer p {
   font-size: 110%;
   margin: 3% 5% 0 0;
 }
-
+.anchor-mobile {
+  display: none;
+}
 footer .anchor {
   width: 200px;
   margin-right: 50px;
@@ -616,100 +618,49 @@ footer .anchor a {
   }
   .div-img {
     width: 100%;
+    height: 500px;
+    margin-bottom: 190px;
   }
   .section-02c {
     width: 100%;
   }
-}
-
-/* 
-
-  .div-img {
-    width: 375px;
+  section {
+    margin-bottom: 390px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
     height: fit-content;
-
-    float: left;
-    margin-top: 2%;
-    overflow: visible;
-    float: left;
   }
 
-  .div-img img {
-    width: 100%;
-    height: 680px;
-  }
-
-  .mini img {
-    padding-bottom: 2%;
-  }
-
-  .section-texts {
-    padding: 2% 0 4% 2%;
-  }
-
-  .section-texts h2 {
-    margin-top: 40px;
+  footer p {
+    font-size: 120%;
+    margin-left: 15px;
+    padding-left: 0;
     width: 80%;
-    margin-left: 10%;
-    font-size: 200%;
+    margin-bottom: 90px;
   }
 
-  .section-texts p {
-    font-size: 110%;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 25px;
+  footer h3 {
+    margin-top: 30px;
+    font-size: 170%;
+    width: 50%;
   }
-
-  .para-for-tab {
+  footer .anchor {
+    display: none;
+  }
+  .anchor-mobile {
     display: block;
-    margin-left: 42px;
-    width: 400px;
-    text-transform: none;
-    margin-top: 70px;
-    color: rgb(54, 54, 54);
-    line-height: 130%;
-    font-size: 130%;
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+    font-size: 20px;
   }
-
-.hero-bg {
-  background: url(./imgs/1639007622710.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 40%;
-  height: 100%;
-  float: left;
+  .anchor-mobile a:not(:nth-child(1)) {
+    margin-left: 10px;
+  }
+  .anchor-mobile a {
+    font-size: 25px;
+    color: white;
+  }
 }
-.white-bg {
-  background: white;
-  width: 30%;
-  height: 100%;
-  float: right;
-}
-
-.texts {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  color: white;
-}
-
-.col-1 {
-  width: 100%;
-  height: 40%;
-}
-
-.col-1 div {
-  width: 65%;
-  height: 100%;
-  float: left;
-  text-transform: uppercase;
-  position: relative;
-  margin-left: -8.5%;
-}
-.new-art {
-  display: none;
-} */
