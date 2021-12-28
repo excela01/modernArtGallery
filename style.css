@@ -600,12 +600,14 @@ footer .anchor a {
     padding: 150px 0 0 43px;
   }
   .anchor-tab h3 {
-    font-size: 90%;
-    padding-top: 20px;
-    padding-left: 44px;
+    font-size: 70%;
+    padding-top: 7%;
+    padding-left: 25%;
+    width: 75%;
   }
   .anchor-tab a {
-    font-size: 90%;
+    font-size: 70%;
+    width: 25%;
   }
 
   .section-02a {
