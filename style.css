@@ -695,4 +695,9 @@ footer .anchor a {
     font-size: 25px;
     color: white;
   }
+  .texts .para-for-tab {
+    border: 1px solid;
+    font-size: 100%;
+    width: 100%;
+  }
 }
