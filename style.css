@@ -629,14 +629,14 @@ footer .anchor a {
   }
   .text-2 {
     width: 100%;
-    margin-bottom: -50px;
+    margin-bottom: -20px;
   }
   .h2-tab {
     display: none;
   }
   .section-02a .text-2 .h2-mobile {
     display: block;
-    font-size: 35px;
+    font-size: 25px;
     width: 90%;
   }
 
