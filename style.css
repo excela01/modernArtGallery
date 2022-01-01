@@ -629,7 +629,7 @@ footer .anchor a {
   }
   .text-2 {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: -50px;
   }
   .h2-tab {
     display: none;
@@ -641,7 +641,7 @@ footer .anchor a {
   }
 
   .section-02a.section-02a p {
-    font-size: 80%;
+    font-size: 115%;
     padding-top: 10px;
   }
 
@@ -662,7 +662,7 @@ footer .anchor a {
     height: fit-content;
   }
   .section-texts .parafor-sect2-Tab {
-    width: 340px;
+    width: 300px;
     font-size: 20px;
     line-height: 30px;
     margin-left: 10%;
