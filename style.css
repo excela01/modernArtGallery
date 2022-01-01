@@ -629,18 +629,20 @@ footer .anchor a {
   }
   .text-2 {
     width: 100%;
+    margin-bottom: 50px;
   }
   .h2-tab {
     display: none;
   }
   .section-02a .text-2 .h2-mobile {
     display: block;
-    font-size: 230%;
-    width: 75%;
+    font-size: 35px;
+    width: 90%;
+    border: 1px solid;
   }
 
   .section-02a.section-02a p {
-    font-size: 100%;
+    font-size: 80%;
     padding-top: 10px;
   }
 
@@ -655,9 +657,17 @@ footer .anchor a {
   section {
     margin-bottom: 390px;
   }
+  .section-texts h2 {
+    font-size: 40px;
+    margin-top: 25px;
+    height: fit-content;
+  }
   .section-texts .parafor-sect2-Tab {
-    border: 1px solid rebeccapurple;
     width: 340px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 10%;
+    padding-bottom: 20px;
   }
   footer {
     display: flex;
@@ -694,6 +704,9 @@ footer .anchor a {
   .anchor-mobile a {
     font-size: 25px;
     color: white;
+  }
+  .texts .new-art {
+    line-height: 100%;
   }
   .texts .para-for-tab {
     font-size: 120%;
