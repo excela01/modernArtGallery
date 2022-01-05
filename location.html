@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>location</title>
+    <title>LOCATION PAGE</title>
     <link rel="stylesheet" href="location.css" />
     <link
       rel="stylesheet"
@@ -12,8 +12,62 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <script type="text/javascript" src="location.js"></script>
   </head>
   <body>
-    hello
+    <main>
+      <div class="anchor">
+        <a href="./index.html"><i class="fas fa-chevron-left"></i></a>
+        <h3>BACK TO HOME</h3>
+      </div>
+      <div class="map" id="map"></div>
+
+      <section class="info">
+        <h1>
+          OUR <br />
+          LOCATION
+        </h1>
+        <div>
+          <h3>99 KING STREET</h3>
+          <p>
+            Newport <br />
+            RI 02840 <br />
+            United States of America
+          </p>
+          <p class="para">
+            Our newly opened gallery is located near the Edward king House on 99
+            King Street, the Modern Art Gallery is free to all visitors and open
+            seven days a week from 8am to 9pm.
+          </p>
+        </div>
+      </section>
+      <footer>
+        <h3><span>MODERN</span> ART GALLERY</h3>
+        <p class="span">
+          The Modern Art Gallery is free to all visitors and open
+          <span> seven days a week from 8am to 9pm. Find us at 99 </span>
+          <span> King Street , Newport, USA. </span>
+        </p>
+        <!-- <p class="no-span">
+          The Modern Art Gallery is free to all visitors and open seven days a
+          week from 8am to 9pm. Find us at 99 King Street , Newport, USA.
+        </p> -->
+        <div class="anchor-footer">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <!-- <div class="anchor-mobile">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div> -->
+      </footer>
+    </main>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9jzh1VG4J8T-zumRYQFlGfARAWWW9vVk&callback=initMap"
+    ></script>
   </body>
 </html>

@@ -143,6 +143,10 @@ main {
   width: 100%;
   height: auto;
 }
+.anchor-tab a i:hover {
+  cursor: pointer;
+  color: aqua;
+}
 .anchor-tab {
   display: none;
 }
