@@ -156,32 +156,35 @@ footer div a {
   }
 
   #map {
-    height: 70vh;
+    height: 50vh;
   }
   .section-main {
     display: none;
   }
   section.section-mobile {
-    height: 70vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
   }
   section.section-mobile h1 {
     width: 100%;
     font-size: 200%;
-    padding: 50px 100px 0 20px;
+    padding: 10px 100px 0 20px;
   }
   section.section-mobile div {
     width: 100%;
     font-size: 90%;
     margin-bottom: 70px;
-    border: 1px solid salmon;
+  }
+  section.section-mobile div * {
+    padding-top: 15px;
   }
 
   .section-mobile div .para {
     width: 65%;
     font-size: 95%;
   }
+
   footer {
     display: flex;
     flex-direction: column;
