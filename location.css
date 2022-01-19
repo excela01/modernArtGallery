@@ -168,12 +168,14 @@ footer div a {
   }
   section.section-mobile h1 {
     width: 100%;
-    font-size: 250%;
-    padding: 40px 100px 0 20px;
+    font-size: 200%;
+    padding: 50px 100px 0 20px;
   }
   section.section-mobile div {
     width: 100%;
     font-size: 90%;
+    margin-bottom: 70px;
+    border: 1px solid salmon;
   }
 
   .section-mobile div .para {
