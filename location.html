@@ -12,7 +12,6 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <script type="text/javascript" src="location.js"></script>
   </head>
   <body>
     <main>
@@ -20,7 +19,16 @@
         <a href="./index.html"><i class="fas fa-chevron-left"></i></a>
         <h3>BACK TO HOME</h3>
       </div>
-      <div class="map" id="map"></div>
+      <div class="map" id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2989.059013219764!2d-71.31254898506958!3d41.48132029813058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5af5d9ad9f351%3A0x9bf38f9aed123934!2s99%20King%20St%2C%20Newport%2C%20RI%2002840%2C%20USA!5e0!3m2!1sen!2sng!4v1641425146422!5m2!1sen!2sng"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
 
       <section class="info section-main">
         <h1>
@@ -80,10 +88,12 @@
         </div> -->
       </footer>
     </main>
+    <!-- <script type="text/javascript" src="location.js"></script>
+
     <script
       async
       defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9jzh1VG4J8T-zumRYQFlGfARAWWW9vVk&callback=initMap"
-    ></script>
+    ></script> -->
   </body>
 </html>
